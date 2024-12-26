@@ -63,7 +63,7 @@ body {
 }
 
 .song:hover {
-    box-shadow: 2px 3px orange;
+    box-shadow: 2px 3px 10px green;
     transform: scale(1.05);
 }
 
