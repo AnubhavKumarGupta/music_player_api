@@ -49,15 +49,17 @@ body {
 }
 
 .song {
-    padding: 30px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     background-color: #1e1e1e;
     box-shadow: 2px 3px black;
     border-radius: 20px;
     transition: all 1s ease;
+    height: 400px; /* Ensures all grid items have the same height */
+    overflow: hidden; /* Prevents content overflow */
 }
 
 .song:hover {
@@ -66,17 +68,21 @@ body {
 }
 
 .song img {
-    height: 200px;
+    height: 150px; /* Adjusted for consistent sizing */
     border-radius: 10px;
     max-width: 100%;
 }
 
 .song h3 {
     margin: 10px 0 5px;
+    text-align: center;
+    font-size: 1.2rem; /* Ensures consistent text sizing */
 }
 
 .song p {
     margin: 5px 0;
+    text-align: center;
+    font-size: 1rem; /* Ensures consistent paragraph text sizing */
 }
 
 .song audio {
