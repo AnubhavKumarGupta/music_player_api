@@ -1,6 +1,6 @@
 # music_player_api
 
-## [👉 Explore Gupta Music Player](https://music-player-api-azure.vercel.app/)
+## [👉 Explore Music Player](https://music-player-api-azure.vercel.app/)
 
 ## 👨🏻‍🏫 Overview
 - This is a **web-based Music Player application** that allows users to search for songs and play song previews using the iTunes API.
@@ -40,14 +40,14 @@ Check out the live version of the project here: [Live Demo Link](https://music-p
 ### 1. Initial Search Interface
 The application allows users to input keywords to search for songs.
 
-![Search Interface](#)  
-(*Add a screenshot of the initial interface here.*)
+<img width="608" alt="demo1" src="https://github.com/user-attachments/assets/0a699e4f-3d67-44aa-a5e6-6a5f1b409339" />
+
 
 ### 2. Displaying Songs
 After searching, the app displays a grid of song cards showing the song name, artist, album, and preview.
 
-![Song Results](#)  
-(*Add a screenshot of the song results interface here.*)
+<img width="943" alt="demo2" src="https://github.com/user-attachments/assets/e3664e24-4305-4974-8d29-cda0c3a799ea" />
+
 
 ## 🔄 How It Works
 
