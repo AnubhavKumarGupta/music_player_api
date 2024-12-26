@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 body {
@@ -58,8 +58,8 @@ body {
     box-shadow: 2px 3px black;
     border-radius: 20px;
     transition: all 1s ease;
-    height: 400px; /* Ensures all grid items have the same height */
-    overflow: hidden; /* Prevents content overflow */
+    height: 400px;
+    overflow: hidden;
 }
 
 .song:hover {
@@ -68,7 +68,7 @@ body {
 }
 
 .song img {
-    height: 150px; /* Adjusted for consistent sizing */
+    height: 150px;
     border-radius: 10px;
     max-width: 100%;
 }
@@ -76,16 +76,60 @@ body {
 .song h3 {
     margin: 10px 0 5px;
     text-align: center;
-    font-size: 1.2rem; /* Ensures consistent text sizing */
+    font-size: 1.2rem;
 }
 
 .song p {
     margin: 5px 0;
     text-align: center;
-    font-size: 1rem; /* Ensures consistent paragraph text sizing */
+    font-size: 1rem;
 }
 
 .song audio {
     width: 100%;
     margin-top: 10px;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 1200px) {
+    #results {
+        grid-template-columns: repeat(2, 1fr); /* Two columns for medium screens */
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #results {
+        grid-template-columns: 1fr; /* One column for smaller screens */
+    }
+    
+    .search-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    #search-input {
+        width: 100%; /* Make the search input full width on smaller screens */
+        margin-bottom: 10px;
+    }
+
+    #search-button {
+        width: 100%; /* Make the button full width */
+    }
+    
+    .song {
+        height: auto; /* Allow the song container to grow naturally */
+        padding: 15px;
+    }
+
+    .song img {
+        height: 120px; /* Slightly smaller images on smaller screens */
+    }
+
+    .song h3 {
+        font-size: 1rem; /* Adjust text size */
+    }
+
+    .song p {
+        font-size: 0.9rem; /* Adjust text size */
+    }
 }
