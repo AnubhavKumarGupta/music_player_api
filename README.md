@@ -1,6 +1,5 @@
-# music_player_api
+# music_player_api  [👉 Explore Music Player](https://music-player-api-azure.vercel.app/)
 
-## [👉 Explore Music Player](https://music-player-api-azure.vercel.app/)
 
 ## 👨🏻‍🏫 Overview
 - This is a **web-based Music Player application** that allows users to search for songs and play song previews using the iTunes API.
@@ -15,9 +14,6 @@
 - **Hover Effects**: Stylish hover effects on the song cards for an enhanced user experience.
 - **Stop Audio on Play**: If a new song is played, the previously playing song automatically stops.
 
-## 🚀 Live Demo
-
-Check out the live version of the project here: [Live Demo Link](https://music-player-api-azure.vercel.app/)  
 
 ## 🛠️ Technologies Used
 
