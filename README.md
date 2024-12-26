@@ -91,22 +91,6 @@ The API provides the following data for each song:
    - Handling scenarios where no results were found or there was an issue with the API call.  
    - Solution: Displayed an appropriate message when the API call failed or returned empty results.
 
-## 🚀 How to Run the Project Locally
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/music-player.git
-   ```
-
-2. Navigate to the project folder:
-   ```bash
-   cd music-player
-   ```
-
-3. Open the `index.html` file in your browser:
-   - On most systems, you can double-click the file to open it.
-
-4. Start searching for your favorite songs! 🎶
 
 ## 📦 Future Enhancements
 
@@ -125,7 +109,7 @@ The API provides the following data for each song:
 
 **Anubhav Kumar Gupta**  
 - [LinkedIn](https://www.linkedin.com/in/anubhav2109/)  
-- [GitHub](https://github.com/anubhavgithub)
+- [GitHub](https://github.com/AnubhavKumarGupta)
 
 ---
 
